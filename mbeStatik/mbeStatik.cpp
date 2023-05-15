@@ -16,7 +16,10 @@ public:
 int mahasiswa::nim = 0;
 
 void mahasiswa::setID() {
-	
+	nim = ++nim;
+}
+
+void mahasiswa::printAll() {
 }
 
 
