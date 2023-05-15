@@ -3,14 +3,18 @@
 using namespace std;
 
 class mahasiswa {
-private :
+private:
 	int nim;
 	string nama;
-public : 
+public:
 	mahasiswa();
 	mahasiswa(int);
 	mahasiswa(string);
 	mahasiswa(int iNim, string iNama);
-	
-
+	void cetak();
 };
+
+mahasiswa::mahasiswa() {
+	nim = 0;
+	nama = "";
+}
