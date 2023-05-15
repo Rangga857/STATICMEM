@@ -2,5 +2,10 @@
 #include <string>
 using namespace std;
 
-class mahasiswa
+class mahasiswa {
+public :
+	static int nim;
+	int id;
+	string nama;
+};
 
